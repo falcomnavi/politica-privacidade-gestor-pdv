@@ -2,55 +2,129 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Política de Privacidade - Gestor de Vendas - PDV Completo</title>
+  <title>Política de Privacidade - App de Vendas</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    body { font-family: Arial, sans-serif; margin: 2em; color: #222; background: #fff; }
-    h1, h2 { color: #2a5d84; }
-    a { color: #2a5d84; }
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2.5em auto;
+      background: #fff;
+      border-radius: 18px;
+      box-shadow: 0 4px 24px rgba(44, 62, 80, 0.10);
+      padding: 2.5em 2em 2em 2em;
+    }
+    h1 {
+      color: #1e88e5;
+      font-size: 2.2em;
+      margin-bottom: 0.2em;
+      display: flex;
+      align-items: center;
+      gap: 0.5em;
+    }
+    h1::before {
+      content: '\1F4B0'; /* emoji de dinheiro */
+      font-size: 1.1em;
+    }
+    h2 {
+      color: #1565c0;
+      margin-top: 1.7em;
+      font-size: 1.2em;
+      border-left: 4px solid #1e88e5;
+      padding-left: 0.5em;
+      background: #f1f8ff;
+      border-radius: 4px;
+    }
+    ul {
+      margin-left: 1.2em;
+      margin-bottom: 1em;
+    }
+    li {
+      margin-bottom: 0.5em;
+    }
+    .highlight {
+      background: #e3f2fd;
+      padding: 0.3em 0.7em;
+      border-radius: 6px;
+      color: #1976d2;
+      font-weight: 600;
+      display: inline-block;
+    }
+    .contact {
+      background: #f5f7fa;
+      border-left: 4px solid #1e88e5;
+      padding: 1em;
+      border-radius: 8px;
+      margin-top: 1.5em;
+      font-size: 1.05em;
+    }
+    .footer {
+      text-align: right;
+      color: #888;
+      font-size: 0.95em;
+      margin-top: 2em;
+    }
+    @media (max-width: 600px) {
+      .container {
+        padding: 1.2em 0.5em;
+      }
+      h1 {
+        font-size: 1.3em;
+      }
+      h2 {
+        font-size: 1em;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Política de Privacidade</h1>
-  <p>Esta Política de Privacidade descreve como o aplicativo <strong>App de Vendas</strong> coleta, usa, armazena e protege as informações dos usuários.</p>
+  <div class="container">
+    <h1>Política de Privacidade</h1>
+    <p>Bem-vindo ao <span class="highlight">App de Vendas</span>! Esta Política de Privacidade explica como tratamos suas informações para garantir transparência, segurança e confiança em cada venda realizada.</p>
 
-  <h2>1. Coleta de Informações</h2>
-  <p>O aplicativo pode coletar as seguintes informações:</p>
-  <ul>
-    <li>Dados cadastrais de clientes (nome, telefone, endereço, e-mail);</li>
-    <li>Informações de vendas, produtos e transações financeiras;</li>
-    <li>Dados de uso do aplicativo para fins de melhoria e suporte;</li>
-    <li>Informações fornecidas voluntariamente pelo usuário.</li>
-  </ul>
-  <p><strong>O aplicativo não coleta dados sensíveis, localização em tempo real, fotos, áudios ou arquivos pessoais do dispositivo.</strong></p>
+    <h2>1. Quais dados coletamos?</h2>
+    <ul>
+      <li><b>Dados de clientes:</b> nome, telefone, endereço, e-mail.</li>
+      <li><b>Informações de vendas:</b> produtos, valores, métodos de pagamento e transações.</li>
+      <li><b>Dados de uso:</b> informações sobre como você utiliza o app para melhorias e suporte.</li>
+      <li><b>Dados fornecidos voluntariamente</b> em cadastros e formulários.</li>
+    </ul>
+    <p class="highlight">Não coletamos localização, fotos, áudios ou arquivos pessoais do seu dispositivo.</p>
 
-  <h2>2. Uso das Informações</h2>
-  <p>As informações coletadas são utilizadas para:</p>
-  <ul>
-    <li>Gerenciar vendas, clientes e transações;</li>
-    <li>Emitir relatórios financeiros e de caixa;</li>
-    <li>Melhorar a experiência do usuário e o funcionamento do app;</li>
-    <li>Atender solicitações de suporte e contato.</li>
-  </ul>
+    <h2>2. Como usamos seus dados?</h2>
+    <ul>
+      <li>Gerenciar vendas, clientes e fluxo de caixa.</li>
+      <li>Emitir relatórios financeiros e de desempenho.</li>
+      <li>Melhorar funcionalidades e experiência do usuário.</li>
+      <li>Atender solicitações de suporte.</li>
+    </ul>
 
-  <h2>3. Compartilhamento de Dados</h2>
-  <p>Os dados dos usuários <strong>não são compartilhados com terceiros</strong>, exceto quando exigido por lei ou mediante consentimento expresso do usuário.</p>
+    <h2>3. Compartilhamento de informações</h2>
+    <p>Seus dados <span class="highlight">não são compartilhados com terceiros</span>, exceto quando exigido por lei ou mediante seu consentimento.</p>
 
-  <h2>4. Armazenamento e Segurança</h2>
-  <p>As informações são armazenadas localmente no dispositivo do usuário e/ou em servidores seguros, quando aplicável. São adotadas medidas técnicas para proteger os dados contra acesso não autorizado, alteração ou divulgação.</p>
+    <h2>4. Armazenamento e segurança</h2>
+    <p>As informações são armazenadas localmente no seu dispositivo e/ou em servidores protegidos, quando aplicável. Utilizamos práticas de segurança para proteger seus dados contra acessos não autorizados.</p>
 
-  <h2>5. Direitos do Usuário</h2>
-  <p>O usuário pode, a qualquer momento, solicitar a atualização, correção ou exclusão de seus dados pessoais, entrando em contato pelo e-mail abaixo.</p>
+    <h2>5. Seus direitos</h2>
+    <p>Você pode solicitar atualização, correção ou exclusão dos seus dados a qualquer momento. Basta entrar em contato conosco.</p>
 
-  <h2>6. Dados de Crianças</h2>
-  <p>O aplicativo <strong>não é direcionado a crianças menores de 13 anos</strong> e não coleta intencionalmente dados pessoais de crianças.</p>
+    <h2>6. Crianças</h2>
+    <p>O app <span class="highlight">não é destinado a menores de 13 anos</span> e não coleta intencionalmente dados de crianças.</p>
 
-  <h2>7. Alterações nesta Política</h2>
-  <p>Esta Política de Privacidade pode ser atualizada periodicamente. Recomendamos que o usuário revise esta página regularmente para se manter informado sobre eventuais mudanças.</p>
+    <h2>7. Mudanças nesta política</h2>
+    <p>Esta política pode ser atualizada. Consulte esta página regularmente para estar sempre informado.</p>
 
-  <h2>8. Contato</h2>
-  <p>Em caso de dúvidas, solicitações ou para exercer seus direitos, entre em contato pelo e-mail: <a href="mailto:ivansodre51@gmail.com">ivansodre51@gmail.com</a></p>
-
-  <p style="margin-top:2em; color:#888;">Última atualização: 12 de maio de 2025</p>
+    <div class="contact">
+      <b>Contato:</b> <a href="mailto:seuemail@dominio.com">seuemail@dominio.com</a>
+    </div>
+    <div class="footer">Última atualização: 12 de maio de 2025</div>
+  </div>
 </body>
 </html>
